@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300&subset=latin,latin-ext);
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #525252;
+  font-weight: 300;
+}
+.header-image {
+  min-height: 600px;
+  background: transparent;
+}
+.header-image .header-content {
+  margin-top: 10%;
+  color: #fff;
+}
+.header-image .header-content h1 {
+  font-weight: 600;
+  font-size: 60px;
+}
+.header-image .header-content p {
+  font-size: 35px;
+}
+.header-image .block {
+  width: 60px;
+  height: 10px;
+  margin: 20px auto 20px auto;
+  background: #ff3a3a;
+  border-radius: 3px;
+}
+.button {
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  line-height: 37px;
+  background: #ff3a3a;
+  color: #fff;
+  border: 1px solid #d30000;
+  transition: 0.3s;
+}
+.button:hover {
+  cursor: pointer;
+  background: none;
+  border: 1px solid #d30000;
+  color: #ff3a3a;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background: #ddd;
+  position: relative;
+  margin: 20px 0 20px 0;
+}
+#naszafirma p {
+  line-height: 25px;
+  text-align: justify;
+}
+#infouslugi p {
+  line-height: 25px;
+  text-align: justify;
+}
+.navbar {
+  margin: 0 0 20px 0;
+  border: none;
+  -webkit-box-shadow: 0 3px 6px -6px #333333;
+  -moz-box-shadow: 0 3px 6px -6px #333333;
+  box-shadow: 0 3px 6px -6px #333333;
+  -webkit-box-shadow: 0px 2px 5px -1px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 0px 2px 5px -1px rgba(0, 0, 0, 0.31);
+  box-shadow: 0px 2px 5px -1px rgba(0, 0, 0, 0.31);
+}
+.navbar-brand {
+  margin: 6px;
+  left: 25px;
+  padding: 0;
+  position: absolute;
+}
+.navbar-text {
+  margin-left: 50px;
+}
+.navbar-text .mobile {
+  color: #4b4b4b;
+  font-family: Tahoma;
+  font-weight: 600;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  border-bottom: 3px solid #d30000;
+  background: #ff3a3a;
+  color: #ffffff;
+  position: relative;
+}
+.navbar-default .navbar-nav > .active > a:before,
+.navbar-default .navbar-nav > .active > a:focus:before,
+.navbar-default .navbar-nav > .active > a:hover:before {
+  content: '';
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 0;
+  left: 45%;
+  margin-right: auto;
+  margin-bottom: auto;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #d30000;
+}
+footer {
+  background: #343434;
+  height: 50px;
+  line-height: 48px;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+}
+footer i {
+  position: absolute;
+  bottom: 18px;
+  right: 28px;
+  color: #ff3a3a;
+}
+footer i:hover {
+  cursor: pointer;
+}
+footer:before {
+  content: '';
+  border: 1px solid #000000;
+  height: 30px;
+  width: 30px;
+  background: #171717;
+  bottom: 10px;
+  right: 20px;
+  position: absolute;
+}
+.carousel {
+  padding: 0;
+  margin: 30px auto 0px auto;
+}
+.item img {
+  min-width: 100%;
+}

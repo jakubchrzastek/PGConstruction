@@ -1,0 +1,95 @@
+#ofertacontent {
+    margin-top: 5em;
+    h2 {
+        margin: 1em 1em 2em 1em;
+        @media(max-width: 994px) {
+            margin: 3em 1em 2em 1em;
+        }
+    }
+    p {
+        line-height: 25px;
+        text-align: justify;
+        font-size: 1.3em;
+        margin: 2em 1em;
+        padding: 0 10px;
+    }
+    ul {
+        list-style: none;
+        margin: 2em;
+        padding: 0;
+        font-size: 1.3em;
+        li {
+            margin: 0;
+            margin-bottom: 1em;
+            padding-left: 1.5em;
+            position: relative;
+            &:after {
+                content: '';
+                height: .8em;
+                width: .8em;
+                background: #D2153A;
+                display: block;
+                position: absolute;
+                transform: rotate(45deg);
+                top: .35em;
+                left: 0;
+            }
+        }
+    }
+}
+
+.ofertabreak {
+    width: 100%;
+    background: @szary;
+    border-top: 1px solid darken(@szary, 20%);
+    padding: 20px 0px;
+    p {
+        text-align: center;
+        padding-top: 1.5em;
+        font-size: 2em;
+    }
+}
+
+#ofertabg {
+    max-height: 13em;
+    width: 100%;
+    background: url('/img/bgoferta.jpg') center center fixed;
+    background-size: cover;
+    text-align: center;
+    p {
+        text-align: center;
+        color: #fff;
+        font-size: 2.6em;
+        font-weight: 400;
+        padding: 20px;
+        border: 2px solid #fff;
+        margin: 55px 20px;
+        @media(max-width: 990px) {
+            border: none;
+            line-height: 20px;
+            font-size: 1.5em;
+        }
+    }
+}
+
+.button2 {
+    max-width: 500px;
+    padding: 20px 10px;
+    margin: 20px auto 50px auto;
+    text-align: center;
+    line-height: 90px;
+    font-size: 20px;
+    background: @color-main;
+    color: #fff;
+    border: 1px solid darken(@color-main, 20%);
+    transition: 0.5s;
+    &:hover {
+        cursor: pointer;
+        background: none;
+        border: 1px solid darken(@color-main, 20%);
+        color: @color-main;
+    }
+    @media(max-width: 560px) {
+        margin: 20px 30px auto;
+    }
+}
